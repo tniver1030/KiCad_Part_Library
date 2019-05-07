@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PDQE10-Q48-S3-D
+#
+DEF PDQE10-Q48-S3-D U 0 40 Y Y 1 L N
+F0 "U" -401 401 50 H V L BNN
+F1 "PDQE10-Q48-S3-D" -401 -501 50 H V L BNN
+F2 "CONV_PDQE10-Q48-S3-D" 0 0 50 H I L BNN
+F3 "102-4870-ND" 0 0 50 H I L BNN
+F4 "https://www.cui.com/product/power/dc-dc-converters/isolated/pdqe10-d-series?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM" 0 0 50 H I L BNN
+F5 "CUI Inc." 0 0 50 H I L BNN
+F6 "DIP-6 CUI" 0 0 50 H I L BNN
+F7 "PDQE10-Q48-S3-D" 0 0 50 H I L BNN
+F8 "https://www.digikey.com/product-detail/en/cui-inc/PDQE10-Q48-S3-D/102-4870-ND/9521947?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F9 "dc-dc isolated, 10 W, 4~1 Vdc input, 3 Vdc, 3.33 A, single regulated output" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 400 -400 -400 -400 N
+P 2 0 0 10 -400 -400 -400 400 N
+P 2 0 0 10 -400 400 400 400 N
+P 2 0 0 10 400 400 400 -400 N
+X VIN 2 -600 200 200 R 40 40 0 0 I 
+X +VOUT 3 600 200 200 L 40 40 0 0 O 
+X 0V 5 600 -200 200 L 40 40 0 0 W 
+X GND 1 -600 -200 200 R 40 40 0 0 W 
+X CTRL 6 -600 0 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library
